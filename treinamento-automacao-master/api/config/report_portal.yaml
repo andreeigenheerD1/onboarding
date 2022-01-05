@@ -1,0 +1,9 @@
+uuid: 
+endpoint: http://reportportal.altu.cc:8080/api/v1
+launch: 
+project: 
+description: Cenarios de Teste
+tags: [tag1, tag2]
+formatter_modes: [group_by_folder]
+
+# bundle exec cucumber -t @tag_de_teste chrome_headless=true hom=true -p aio

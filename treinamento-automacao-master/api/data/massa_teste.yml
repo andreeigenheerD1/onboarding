@@ -1,0 +1,8 @@
+numero_cpf_valido: 35525605139
+
+numero_cpf_invalido: 11111111111
+
+numero_cpf_vazio: nil
+
+empresa:
+  porto: 1

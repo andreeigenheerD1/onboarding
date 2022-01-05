@@ -1,0 +1,16 @@
+################ elementos ####################
+
+txt_whats: "div[class='msg']"
+label_option: "div[class='ic-option']"
+box_text: "input[title='Digite uma mensagem']"
+btn_enviar: "button[class='btn-send']"
+logo: "a[class='ir']"
+title_text: "div[class='ic-select-header']"
+btn_pesquisa: "a[class='qr-btn']"
+
+# ################# Altu ##################
+
+login_altu: input[id='email']
+senha_altu: input[id='password']
+botao_enviar_altu: button[type='submit']
+

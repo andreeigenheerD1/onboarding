@@ -1,0 +1,9 @@
+# arquivos/pastas/extensoes que deseja ignorar ao subir para o GitHub. Nao serao excluidos, apenas nao serao exibidos.
+# Se o projeto for whatsapp ou messenger, insira o arquivo credenciais.yml 
+
+*.html
+*.mp4
+*.png
+recorder.log
+#credenciais.yml
+ 

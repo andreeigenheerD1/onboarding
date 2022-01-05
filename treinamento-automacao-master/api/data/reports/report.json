@@ -1,0 +1,80 @@
+[
+  {
+    "uri": "features/laudo.feature",
+    "id": "validar-os-cenarios-de-laudos-com-a-api-da-porto",
+    "keyword": "Funcionalidade",
+    "name": "Validar os cenarios de laudos com a api da porto",
+    "description": "",
+    "line": 2,
+    "elements": [
+      {
+        "id": "validar-os-cenarios-de-laudos-com-a-api-da-porto;validar-ser-o-numero-do-laudo-esta-retornando-com-sucesso-com-a-quantidade-de-6-numeros.",
+        "keyword": "Cenario",
+        "name": "Validar ser o numero do laudo esta retornando com sucesso com a quantidade de 6 numeros.",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@laudo",
+            "line": 4
+          },
+          {
+            "name": "@numero_laudo",
+            "line": 4
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que realizo uma busca do produto com um cpf \"valido\" junto com a empresa \"porto\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/step_definition.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5909028947
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "capturo as \"numeroDocumento\" e valido o retorno corretamente",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_definition.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68470
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu realizo a busca atividade",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/step_definition.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093090181
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "valido que o numero do laudo esta vindo corretamente com 6 em uma string",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_definition.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220556
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,594 @@
+[
+  {
+    "uri": "features/satisfacao.feature",
+    "id": "usuario-responde-a-pesquisa-de-satisfação",
+    "keyword": "Funcionalidade",
+    "name": "Usuario responde a pesquisa de satisfação",
+    "description": "",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@satisfacao",
+        "line": 4
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encode: UTF-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "usuario-responde-a-pesquisa-de-satisfação;usuario-responde-a-pesquisa-de-satisfacao-com-uma-nota-baixa;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Usuario responde a pesquisa de satisfacao com uma nota baixa",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@satisfacao",
+            "line": 4
+          },
+          {
+            "name": "@satisfacao1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2424341900
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei o chatboot ate o fluxo \"Pesquisa de satisfação\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10565890300
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "visualizo a mensagem \"Atendimento\" seleciono a opcao \"1 - Ruim\" visualizo a mensagem \"Poxa! 😿 Vamos nos esforçar para melhorar suas próximas experiências conosco. Gostaria de deixar um comentário ou sugestão?\" preencho o campo \"Estou adorando isso!\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_satisfacao.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482691300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que fui direcionado ao fluxo \"Fim do chat 4\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2854618500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3005179100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120870200
+            }
+          }
+        ]
+      },
+      {
+        "id": "usuario-responde-a-pesquisa-de-satisfação;usuario-responde-a-pesquisa-de-satisfacao-com-uma-nota-baixa;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Usuario responde a pesquisa de satisfacao com uma nota baixa",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@satisfacao",
+            "line": 4
+          },
+          {
+            "name": "@satisfacao1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14400
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1427232500
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei o chatboot ate o fluxo \"Pesquisa de satisfação\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10515111900
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "visualizo a mensagem \"Atendimento\" seleciono a opcao \"2 - Razoável\" visualizo a mensagem \"Poxa! 😿 Vamos nos esforçar para melhorar suas próximas experiências conosco. Gostaria de deixar um comentário ou sugestão?\" preencho o campo \"Show!\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_satisfacao.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1762478900
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que fui direcionado ao fluxo \"Fim do chat 4\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2972997500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3006910500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123017900
+            }
+          }
+        ]
+      },
+      {
+        "id": "usuario-responde-a-pesquisa-de-satisfação;usuario-responde-a-pesquisa-de-satisfacao-com-uma-nota-baixa;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Usuario responde a pesquisa de satisfacao com uma nota baixa",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@satisfacao",
+            "line": 4
+          },
+          {
+            "name": "@satisfacao1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15500
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1391955900
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei o chatboot ate o fluxo \"Pesquisa de satisfação\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9383241900
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "visualizo a mensagem \"Atendimento\" seleciono a opcao \"3 - Bom\" visualizo a mensagem \"Opa! Muito obrigada pela nota! 😺 Gostaria de deixar um comentário ou sugestão?\" preencho o campo \"É lindo de ver o robo trabalhando!\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_satisfacao.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1874335700
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que fui direcionado ao fluxo \"Fim do chat 4\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2782310500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3012625900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107377200
+            }
+          }
+        ]
+      },
+      {
+        "id": "usuario-responde-a-pesquisa-de-satisfação;usuario-responde-a-pesquisa-de-satisfacao-com-uma-nota-baixa;;5",
+        "keyword": "Esquema do Cenario",
+        "name": "Usuario responde a pesquisa de satisfacao com uma nota baixa",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@satisfacao",
+            "line": 4
+          },
+          {
+            "name": "@satisfacao1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13700
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1341733200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei o chatboot ate o fluxo \"Pesquisa de satisfação\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9472570700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "visualizo a mensagem \"Atendimento\" seleciono a opcao \"4 - Muito bom\" visualizo a mensagem \"Opa! Muito obrigada pela nota! 😺 Gostaria de deixar um comentário ou sugestão?\" preencho o campo \"Só a agradeçer!\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_satisfacao.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1583913400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que fui direcionado ao fluxo \"Fim do chat 4\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2914424500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3006728800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123759900
+            }
+          }
+        ]
+      },
+      {
+        "id": "usuario-responde-a-pesquisa-de-satisfação;usuario-responde-a-pesquisa-de-satisfacao-com-uma-nota-baixa;;6",
+        "keyword": "Esquema do Cenario",
+        "name": "Usuario responde a pesquisa de satisfacao com uma nota baixa",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@satisfacao",
+            "line": 4
+          },
+          {
+            "name": "@satisfacao1",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13100
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1346674500
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acessei o chatboot ate o fluxo \"Pesquisa de satisfação\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9926828000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "visualizo a mensagem \"Atendimento\" seleciono a opcao \"5 - Excelente\" visualizo a mensagem \"Opa! Muito obrigada pela nota! 😺 Gostaria de deixar um comentário ou sugestão?\" preencho o campo \"Bacana demais!\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_satisfacao.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1676222300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que fui direcionado ao fluxo \"Fim do chat 4\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_inicio.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2920396700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3005754400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124594000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

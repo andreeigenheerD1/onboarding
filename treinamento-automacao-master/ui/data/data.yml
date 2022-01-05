@@ -1,0 +1,26 @@
+dev:
+  site_bot: 'https://demo.altu.com.br/widgets/preview/bbf446ff676d1481e7f4d5fbafcc8483'
+  site_bot_altu: 'https://portoconsorcio.altu.com.br/assistants/builder/2'
+  site_bot_whats: 'https://portoconsorcio.altu.com.br/assistants/debugger/2?channel=whatsapp'
+  site_bot_facebook: 'https://www.facebook.com/messages/t/104136548321256'
+  
+hom:
+  site_bot: 'https://demo.altu.com.br/widgets/preview/bbf446ff676d1481e7f4d5fbafcc8483'
+  site_bot_whats: ''
+  site_bot_facebook:
+  
+prod:
+  site_bot: ''
+  site_bot_whats: ''
+  site_bot_facebook: ''
+  
+qa:
+  site_bot: ''
+  site_bot_whats: ''
+  site_bot_facebook: ''
+
+# site_bot: Login web, link direto do preview em caso de webchat
+# site_bot_altu: Link do builder usado no acesso ao login altu
+# site_bot_whats: Inserir link do ALTU no modo Whatsapp  
+# site_bot_facebook: Inserir link do Facebook
+# Configuração dos ambientes está relacionada ao arquivo .env linhas 20-30
